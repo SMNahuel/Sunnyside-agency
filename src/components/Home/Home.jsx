@@ -18,7 +18,7 @@ const Home = () => {
         <div>
             <div className={style.ContainerHeader}>
                 <div className={style.Navbar}>
-                    <p className={style.Sunny}>sunnyside</p>
+                    <p className={style.Sunny} href="#">sunnyside</p>
                     <div className={style.ButonNav}>
                         <p>About    </p>
                         <p>Services </p>
