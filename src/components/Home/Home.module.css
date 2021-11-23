@@ -1,4 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@800&display=swap');
+@import url(https://fonts.google.com/specimen/Barlow);
 
-.Header{
-    width: 100%;
+
+.Header {
+  width: 100%;
+}
+
+.ContainerHeader {
+  background-image: url("../../assets/desktop/image-header.jpg");
+  background-position: center center !important;
+  background-size: 100% 100% !important;
+  height: 650px;
+}
+
+.ContainerHeader > h2{
+    font-family: 'Fraunces', serif;
+    letter-spacing: 5px;
+    font-size: 50px;
+    color: white;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em 2em 0em 2em;
+}
+
+.Sunny{
+    color: white;
+    font-weight: 900;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+.ButonNav {
+  display: flex;
+  flex-direction: row;
+}
+
+.ButonNav > p {
+    width: 150px;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    border-radius: 50px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ButonNav > p:hover {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    background-color: #71DFE7;
+    text-transform: uppercase;
+}
+
+.Arrow {                                                                                                                                                
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Title{
+    font-family: 'Fraunces', serif;
+    margin-bottom: 1em;
+    padding-right: 6em;
+}
+
+.Learn{
+  width: 125px;
+    cursor: pointer;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1em;
+    border-radius: 10px;
+}
+
+.BorderRed{
+  width: 130px;
+  height: 10px !important;
+  border-radius: 30px;
+  margin-top: -10px;
+  color: hsl(7, 99%, 70%);
+  margin-left: -10px;
+}
+
+.BorderYellow{
+  width: 130px;
+  height: 10px !important;
+  border-radius: 30px;
+  margin-top: -10px;
+  color: hsl(51, 100%, 49%);
+  margin-left: -10px;
+}
+
+.Learn:hover > .BorderYellow{
+  opacity: 1;
+}
+
+.Learn:hover > .BorderRed{
+  opacity: 1;
+}
+.Testimonial{
+  width: 350px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em 0em 2em;
+}
+
+.Testimonial > p{
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.Testimonial > h3{
+  font-family: 'Fraunces', serif;
+}
+
+.Testimonial > img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.Testimonial > p:last-child{
+  font-size: Barlow;
+  font-size: 14px;
+  color: hsl(210, 4%, 67%);
+  margin-bottom: 4em;
+}
+
+.Client{
+  margin-top: 2em;
+  font-family: 'Fraunces', serif;
+  color: hsl(210, 4%, 67%);
+  text-transform: uppercase;
 }
